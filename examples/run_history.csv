@@ -1,0 +1,11 @@
+zap,status,timestamp
+New lead,success,2026-10-20T09:00:00Z
+New lead,success,2026-10-20T09:30:00Z
+New lead,filtered,2026-10-20T10:00:00Z
+New lead,success,2026-10-20T10:30:00Z
+New lead,error,2026-10-20T11:00:00Z
+New lead,success,2026-10-20T11:30:00Z
+New lead,halted,2026-10-20T12:00:00Z
+New lead,success,2026-10-22T09:00:00Z
+New lead,error,2026-10-22T09:30:00Z
+New lead,success,2026-10-22T10:00:00Z

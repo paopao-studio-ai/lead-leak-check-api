@@ -1,0 +1,14 @@
+{
+  "name": "Typeform -> Google Sheets -> Slack #sales",
+  "sources": [
+    { "type": "web_form", "required_contact_field": false },
+    { "type": "whatsapp", "logged_to_storage": false }
+  ],
+  "storage": { "type": "google_sheets", "dedupe": false },
+  "routing": { "owner_assignment": "none", "after_hours_coverage": false },
+  "response": { "sla_minutes": 30, "auto_ack": true, "ai_drafts": true, "human_send_step": false },
+  "monitoring": { "error_alerts": false, "unanswered_lead_alert": false, "run_history_review": "never" },
+  "automation": { "platform": "zapier", "plan": "free" },
+  "timezone": { "business_tz": "America/New_York", "automation_tz": "UTC" },
+  "follow_up": { "sequence": false }
+}

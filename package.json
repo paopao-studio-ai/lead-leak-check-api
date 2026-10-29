@@ -1,0 +1,14 @@
+{
+  "name": "lead-leak-check-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HTTP API for lead-leak-check: score a Zapier/Make/n8n lead pipeline for leak risks (Cloudflare Worker).",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test test/",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  }
+}

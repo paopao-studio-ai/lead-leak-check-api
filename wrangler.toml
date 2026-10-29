@@ -1,0 +1,11 @@
+name = "lead-leak-check-api"
+main = "src/worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+# Comma-separated header names that may carry the shared secret.
+SECRET_HEADERS = "x-rapidapi-proxy-secret,x-origin-key"
+# Leave empty for marketplaces that forbid URLs in responses (Zyla).
+FOOTER_URL = ""
+# PROXY_SECRET is a secret: `npx wrangler secret put PROXY_SECRET`

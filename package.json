@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/build.mjs && node --test test/",
+    "test": "node scripts/build.mjs && node --test \"test/*.test.js\"",
     "dev": "npx wrangler dev",
     "deploy": "npx wrangler deploy"
   }

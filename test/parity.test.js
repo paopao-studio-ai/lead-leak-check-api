@@ -26,3 +26,8 @@ fx.errors.forEach((c, i) =>
     const fn = { config: checkConfig, description: checkDescription, history: analyzeHistory }[c.kind];
     assert.throws(() => fn(c.input), { message: c.message });
   }));
+
+test("'nobody works on weekends' and similar phrasings flag missing after-hours coverage", () => {
+  for (const t of ["Nobody works on weekends.", "No one answers at night.", "No after-hours cover."])
+    assert.equal(configFromText(t).routing.after_hours_coverage, false);
+});

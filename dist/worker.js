@@ -225,7 +225,7 @@ const KW = [
   [/\b(only in (the |my )?(inbox|email|whatsapp|phone)|just (in )?(the )?inbox)\b/, "storage.type", "none"],
   [/\b(free plan|free tier|free account)\b/, "automation.plan", "free"],
   [/\b(paid plan|professional plan|team plan|self[- ]hosted)\b/, "automation.plan", "paid"],
-  [/\b(no (one|body) (works|answers) (at night|on weekends)|weekends? (are|is) (not covered|uncovered)|no after[- ]hours)\b/, "routing.after_hours_coverage", false],
+  [/\b(no ?(one|body) (works|answers) (at night|on weekends)|weekends? (are|is) (not covered|uncovered)|no after[- ]hours)\b/, "routing.after_hours_coverage", false],
   [/\b(24\/7|on[- ]call|after[- ]hours (coverage|team|rota))\b/, "routing.after_hours_coverage", true],
   [/\b(auto[- ]?(reply|responder|acknowledg\w*)|instant (reply|confirmation))\b/, "response.auto_ack", true],
   [/\b(chatgpt|claude|gpt|openai|ai[- ](draft|reply|replies|writes))\b/, "response.ai_drafts", true],

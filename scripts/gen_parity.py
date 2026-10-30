@@ -33,6 +33,7 @@ descs = [
     "Instagram DMs and phone calls. Leads stay only in my inbox. n8n self-hosted. no follow-ups.",
     "Facebook lead ads -> Airtable via integromat, claude writes replies, line messages, kakaotalk, live chat, calendly bookings, emails",
     "just in the inbox, whoever sees it answers. weekends are not covered",
+    "Nobody works on weekends.", "No one answers at night.", "No after-hours cover.",
 ]
 csvs = [
     (open(sys.argv[1] + "/../examples/run_history.csv").read(), None),
